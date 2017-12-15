@@ -8,8 +8,8 @@
   "license": "MIT",
   "url": "https://github.com/epicmaxco/epic-spinners",
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/epicmaxco/epic-spinners.git"
+    "type": "git",
+    "url": "https://github.com/epicmaxco/epic-spinners.git"
   },
   "scripts": {
     "prepublishOnly": "npm run build",
@@ -22,7 +22,14 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
-    "vue": "^2.5.9"
+    "autoprefixer": "^7.2.3",
+    "clipboard": "^1.7.1",
+    "semver": "^5.4.1",
+    "vue": "^2.5.10",
+    "vue-clipboard": "0.0.1",
+    "vue-clipboard2": "0.0.8",
+    "vue-template-compiler": "^2.5.10",
+    "vue-toasted": "^1.1.24"
   },
   "devDependencies": {
     "autoprefixer": "^7.1.2",
@@ -65,7 +72,7 @@
     "url-loader": "^0.5.8",
     "vue-loader": "^12.1.0",
     "vue-style-loader": "^3.0.1",
-    "vue-template-compiler": "2.5.9",
+    "vue-template-compiler": "2.5.10",
     "webpack": "^2.6.1",
     "webpack-dev-middleware": "^1.10.0",
     "webpack-hot-middleware": "^2.18.0",

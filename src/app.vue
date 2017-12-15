@@ -1,17 +1,18 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <samples></samples>
+    <div>
+      <loaders-gallery />
+    </div>
   </div>
 </template>
 
 <script>
-import Samples from './components/Samples'
+import LoadersGallery from './components/LoadersGallery.vue'
 
 export default {
   name: 'app',
   components: {
-    Samples
+    LoadersGallery
   }
 }
 </script>
